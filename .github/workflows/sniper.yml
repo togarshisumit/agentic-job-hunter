@@ -26,7 +26,9 @@ jobs:
 
       - name: Reconstruct token.json (For Gmail API)
         run: |
-          echo "${{ secrets.GMAIL_TOKEN_JSON_BASE64 }}" | base64 --decode > token.json
+          cat << 'EOF' > token.json
+          ${{ secrets.GMAIL_TOKEN_JSON }}
+          EOF
 
       - name: Run Sniper
         env:

@@ -1,0 +1,27 @@
+# Sumit Togarshi
+**Software Engineer | Backend | Python**
+Email: togarshisumit@gmail.com | Phone: 8217488690
+
+## Professional Summary
+Software Engineer with extensive experience in building scalable backend systems, working with Python, and orchestrating AI workflows. Passionate about leveraging cutting-edge technologies to solve complex problems and deliver robust applications.
+
+## Technical Skills
+- **Languages**: Python, SQL, C/C++
+- **Frameworks/Libraries**: FastAPI, Streamlit, LangChain, LangGraph, Pandas, SQLAlchemy
+- **Tools/Platforms**: Git, Docker, ChromaDB, Playwright, AWS, Groq
+- **Concepts**: RAG, Multi-Agent Systems, Web Scraping, Database Design
+
+## Projects
+### Agentic Job Hunter
+- Architected a multi-agent system using LangGraph and Groq to automate the job hunting process.
+- Implemented a "Sniper" proactive search tool scraping ATS boards and filtering with a two-pass LLM approach.
+- Developed an auto-applier using Playwright to dynamically fill out greenhouse/lever job forms.
+
+### Backend Development Experience
+- Designed and maintained RESTful APIs using FastAPI.
+- Optimized database queries for faster retrieval times, improving overall application performance by 30%.
+- Integrated various third-party APIs (Gmail, Discord webhooks).
+
+## Education
+B.Tech in Computer Science
+Graduated 2024

@@ -1,0 +1,20 @@
+# API Keys and Secrets (CRITICAL - DO NOT PUSH)
+.env
+token.json
+credentials.json
+
+# Databases
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# OS Files
+.DS_Store
+Thumbs.db

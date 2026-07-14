@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Agentic Job Hunter",
+  "version": "1.0",
+  "description": "Auto-tailor resumes and draft cold emails for jobs on any site.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ]
+}

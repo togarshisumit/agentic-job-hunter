@@ -161,7 +161,12 @@ async def send_discord_alert(job_title, job_url, score, pitch):
                 print(f"❌ Discord blocked the alert! Error {response.status}: {text}")
 
 async def run_sniper():
-    resume_text = os.getenv("MY_RESUME_TEXT", "Software engineer looking for Python roles.")
+    resume_path = "data/master_resume.txt"
+    if os.path.exists(resume_path):
+        with open(resume_path, "r", encoding="utf-8") as f:
+            resume_text = f.read()
+    else:
+        resume_text = "Software engineer looking for Python roles."
     
     # Gather jobs from all sources!
     jobs = []

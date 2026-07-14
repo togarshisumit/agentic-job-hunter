@@ -32,5 +32,5 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          MY_RESUME_TEXT: ${{ secrets.MY_RESUME_TEXT }}
+          # The script will read data/master_resume.txt from the repository
         run: python sniper.py

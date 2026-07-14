@@ -49,7 +49,6 @@ pip install -r requirements.txt
 ```env
 GROQ_API_KEY=your_groq_key
 DISCORD_WEBHOOK_URL=your_discord_webhook
-MY_RESUME_TEXT="Your full, detailed resume goes here..."
 ```
 
 2. **The `credentials.json` file (For Gmail Integration):**
@@ -78,7 +77,7 @@ streamlit run app.py
 This project includes a `.github/workflows/sniper.yml` file to run the job sourcing agent automatically every 3 days.
 1. Push this code to a **Private** GitHub repository.
 2. Go to **Settings > Secrets and variables > Actions**.
-3. Add your `GROQ_API_KEY`, `DISCORD_WEBHOOK_URL`, and `MY_RESUME_TEXT` as secrets.
+3. Add your `GROQ_API_KEY` and `DISCORD_WEBHOOK_URL` as secrets.
 4. Add `GMAIL_TOKEN_JSON_BASE64` (Base64 encode your local `token.json` file to allow GitHub to read your job alert emails).
 
 ## ⚠️ Disclaimer

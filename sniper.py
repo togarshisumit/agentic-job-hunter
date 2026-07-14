@@ -1,11 +1,11 @@
 import os
 import asyncio
 import aiohttp
-import requests
+
 import instructor
 from groq import AsyncGroq
 from pydantic import BaseModel, Field
-from ddgs import DDGS
+
 from dotenv import load_dotenv
 import urllib.parse
 import re

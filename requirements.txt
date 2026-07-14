@@ -2,19 +2,7 @@ langgraph
 instructor
 openai
 pydantic
-langgraph
-instructor
 groq
-pydantic
-python-dotenv
-llama-index
-llama-index-vector-stores-chroma
-chromadb
-llama-index-embeddings-huggingface
-langgraph
-instructor
-groq
-pydantic
 python-dotenv
 llama-index
 llama-index-vector-stores-chroma
@@ -28,6 +16,5 @@ beautifulsoup4
 markdownify
 aiohttp
 playwright
-
 fastapi
 uvicorn
